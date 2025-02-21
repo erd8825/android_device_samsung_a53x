@@ -133,26 +133,4 @@
         <value>491</value>
         <value>573</value>
     </array>
-    <array name="gpu.speeds">
-        <value>104000</value>
-        <value>208000</value>
-        <value>312000</value>
-        <value>403000</value>
-        <value>507000</value>
-        <value>611000</value>
-        <value>702000</value>
-        <value>806000</value>
-        <value>897000</value>
-    </array>
-    <array name="gpu.active">
-        <value>22</value>
-        <value>45</value>
-        <value>70</value>
-        <value>95</value>
-        <value>133</value>
-        <value>181</value>
-        <value>221</value>
-        <value>294</value>
-        <value>375</value>
-    </array>
 </device>
