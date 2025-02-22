@@ -108,12 +108,12 @@
     </array>
 
     <!-- Power used by display unit in ambient display mode, including back lighting-->
-    <item name="ambient.on">29.3</item>
+    <item name="ambient.on.display0">29.3</item>
     <!-- Additional power used when screen is turned on at minimum brightness -->
-    <item name="screen.on">103.8</item>
+    <item name="screen.on.display0">103.8</item>
     <!-- Additional power used when screen is at maximum brightness, compared to
          screen at minimum brightness -->
-    <item name="screen.full">310.5</item>
+    <item name="screen.full.display0">310.5</item>
 
     <!-- Average power used by the camera flash module when on -->
     <item name="camera.flashlight">149</item>
