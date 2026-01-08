@@ -9,6 +9,9 @@ $(call inherit-product, device/samsung/s5e8825-common/products/phone/product.mk)
 # Inherit the common tree
 $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 
+# Inherit proprietary blobs
+$(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
+
 DEVICE_PATH := device/samsung/a53x
 
 # Soong - Namespaces
