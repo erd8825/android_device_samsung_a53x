@@ -53,6 +53,14 @@ vendor/etc/nfc/sec_s3nrn4v_hwreg.bin:vendor/firmware/nfc/sec_s3nrn4v_hwreg.bin
 vendor/etc/nfc/sec_s3nrn4v_swreg.bin:vendor/firmware/nfc/sec_s3nrn4v_swreg.bin
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
 
+# Security - TEEgris - Firmware - from SM-A536B - A536BXXSHFYI1
+vendor/tee/00000000-0000-0000-0000-0053545354ab|7bbb12ce8392997f5c1359b281aef5581d98776e
+vendor/tee/00000000-0000-0000-0000-46494e474502|6830d62764bfe2f27b5c578fe720d00e0074d240
+vendor/tee/00000000-0000-0000-0000-474154454b45|702aa1f1c3280d71819abff4972f5f7ec03b2b2d
+vendor/tee/00000000-0000-0000-0000-4b45594d5354|9e9d2f4fe66f7646aadfb2d1c6d3d5f47b19dfe7
+vendor/tee/driver/00000000-0000-0000-0000-494363447256|9f286ee4de83ea08c0bf22a7ca3d5245fd08aa49
+vendor/tee/driver/00000000-0000-0000-0000-53626f786476|cc2ae2d1e58408cc7fe059f1018cae7e702238cc
+
 # Wi-Fi - Firmware
 vendor/firmware/wifi/mx140_t_common.hcf
 vendor/firmware/wifi/mx140_t_wlan.hcf
