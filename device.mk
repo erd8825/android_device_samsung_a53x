@@ -14,6 +14,9 @@ $(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
 
 DEVICE_PATH := device/samsung/a53x
 
+# Audio - Configuration
+PRODUCT_PACKAGES += mixer_paths.xml
+
 # CAS
 TARGET_REQUIRES_HIDL_CAS_HAL := false
 
