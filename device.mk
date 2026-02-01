@@ -12,6 +12,9 @@ $(call inherit-product, device/samsung/s5e8825-common/common.mk)
 # Inherit proprietary blobs
 $(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
 
+# Audio - Configuration
+PRODUCT_PACKAGES += mixer_paths.xml
+
 # CAS
 TARGET_REQUIRES_HIDL_CAS_HAL := false
 
