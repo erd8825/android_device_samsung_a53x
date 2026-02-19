@@ -22,6 +22,7 @@ TARGET_REQUIRES_HIDL_CAS_HAL := false
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     SettingsProviderOverlayDevice \
+    SystemUIOverlayDevice \
     WiFiOverlayDevice
 
 # Properties
