@@ -21,6 +21,9 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayDevice \
     WiFiOverlayDevice
 
+# Properties
+TARGET_VENDOR_PROP += device/samsung/a53x/configs/props/vendor.prop
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
