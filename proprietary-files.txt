@@ -4,3 +4,56 @@
 #
 
 # Proprietary files - from A536BXXSOGZH2, unless pinned
+
+# Audio - Firmware
+vendor/firmware/APDV_AUDIO_SLSI.bin
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/calliope_sram.bin
+vendor/firmware/vts.bin
+
+# Camera - Firmware
+vendor/firmware/setfile_gc5035d.bin
+vendor/firmware/setfile_gc5035m.bin
+vendor/firmware/setfile_gd2.bin
+vendor/firmware/setfile_gw1.bin
+vendor/firmware/setfile_hi1336.bin
+vendor/firmware/setfile_imx258.bin
+vendor/firmware/setfile_imx616.bin
+vendor/firmware/setfile_imx682.bin
+vendor/firmware/tfa9878.bin
+vendor/firmware/tfa98xx.cnt
+
+# Camera - Firmware - Configuration
+vendor/firmware/lmecpu_GC5035.json
+vendor/firmware/lmecpu_HI1336.json
+vendor/firmware/lmecpu_IMX258.json
+vendor/firmware/lmecpu_IMX616.json
+vendor/firmware/lmecpu_IMX682.json
+vendor/firmware/lmecpu_S5KGD2.json
+vendor/firmware/lmecpu_S5KGW1.json
+vendor/firmware/swcnr_IMX682.json
+vendor/firmware/swcnr_S5KGW1.json
+
+# Display - Touch - Firmware
+vendor/firmware/gt9895_a53x.bin
+
+# Display - Touch - Firmware - Ramdisk
+vendor/firmware/gt9895_a53x.bin:vendor_ramdisk/vendor/firmware/gt9895_a53x.bin
+
+# Display - Touch - Firmware - Recovery
+vendor/firmware/gt9895_a53x.bin:recovery/root/vendor/firmware/gt9895_a53x.bin
+
+# Firmware
+vendor/firmware/NPU.bin
+vendor/firmware/mfc_fw.bin
+vendor/firmware/os.checked.bin
+
+# NFC - Firmware
+vendor/etc/nfc/sec_s3nrn4v_hwreg.bin:vendor/firmware/nfc/sec_s3nrn4v_hwreg.bin
+vendor/etc/nfc/sec_s3nrn4v_swreg.bin:vendor/firmware/nfc/sec_s3nrn4v_swreg.bin
+vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
+
+# Wi-Fi - Firmware
+vendor/firmware/wifi/mx140_t_common.hcf
+vendor/firmware/wifi/mx140_t_wlan.hcf
+vendor/firmware/wifi/mx140_t_wlan_t.hcf
