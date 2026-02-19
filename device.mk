@@ -17,6 +17,9 @@ DEVICE_PATH := device/samsung/a53x
 # CAS
 TARGET_REQUIRES_HIDL_CAS_HAL := false
 
+# Overlays
+PRODUCT_PACKAGES += SettingsProviderOverlayDevice
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
