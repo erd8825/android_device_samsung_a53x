@@ -20,7 +20,8 @@ TARGET_REQUIRES_HIDL_CAS_HAL := false
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
-    SettingsProviderOverlayDevice
+    SettingsProviderOverlayDevice \
+    WiFiOverlayDevice
 
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
