@@ -25,6 +25,11 @@ TARGET_REQUIRES_HIDL_CAS_HAL := false
 # Display - Configuration
 PRODUCT_PACKAGES += displayconfig.xml
 
+# Fingerprint
+$(call soong_config_set,samsungUdfpsVars,dim_layer_zorder,0xff)
+$(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x100)
+$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:libudfps_extension.samsung)
+
 # Init
 PRODUCT_PACKAGES += init.a53x.rc
 
