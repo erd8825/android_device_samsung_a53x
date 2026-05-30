@@ -48,6 +48,9 @@ vendor/firmware/NPU.bin
 vendor/firmware/mfc_fw.bin
 vendor/firmware/os.checked.bin
 
+# NFC - eSE - Configuration
+vendor/etc/libse-gto-hal.conf
+
 # NFC - Firmware
 vendor/etc/nfc/sec_s3nrn4v_hwreg.bin:vendor/firmware/nfc/sec_s3nrn4v_hwreg.bin
 vendor/etc/nfc/sec_s3nrn4v_swreg.bin:vendor/firmware/nfc/sec_s3nrn4v_swreg.bin
