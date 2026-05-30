@@ -1,0 +1,9 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on boot
+    # NFC - eSE
+    chmod 0660 /dev/p3
+    chown secure_element secure_element /dev/p3

@@ -25,12 +25,23 @@ TARGET_REQUIRES_HIDL_CAS_HAL := false
 # Display - Configuration
 PRODUCT_PACKAGES += displayconfig.xml
 
+# Init
+PRODUCT_PACKAGES += init.a53x.rc
+
+# NFC - eSE
+PRODUCT_PACKAGES += android.hardware.secure_element-service.thales-st33
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     SettingsProviderOverlayDevice \
     SystemUIOverlayDevice \
     WiFiOverlayDevice
+
+# Permissions
+PRODUCT_PACKAGES += \
+    android.hardware.nfc.ese.prebuilt.xml \
+    android.hardware.se.omapi.ese.prebuilt.xml
 
 # RIL
 TARGET_HAS_RIL := true
