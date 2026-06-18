@@ -40,7 +40,18 @@ blob_fixups: blob_fixups_user_type = {
         #  nop
         # ]
         .sig_replace('e6 03 00 91 80 00 80 52 e5 03 13 2a a7 d2 07 94',
-                     '80 22 4a b9 00 00 1c 32 80 22 0a b9 1f 20 03 d5'),
+                     '80 22 4a b9 00 00 1c 32 80 22 0a b9 1f 20 03 d5')
+        # Make checkFactoryBinProperty always return false
+        # Before: [
+        #  sub sp,sp,#90
+        #  stp x29,x30,[sp, #70]
+        # ]
+        # After: [
+        #  mov w0,#0
+        #  ret
+        # ]
+        .sig_replace('d6 db 00 94 00 00 00 00 ff 43 02 d1 fd 7b 07 a9',
+                     'd6 db 00 94 00 00 00 00 00 00 80 52 c0 03 5f d6'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
