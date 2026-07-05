@@ -58,6 +58,7 @@ blob_fixups: blob_fixups_user_type = {
 module = ExtractUtilsModule(
     'a53x',
     'samsung',
+    add_firmware_proprietary_file=True,
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
 )
