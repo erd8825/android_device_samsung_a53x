@@ -1,0 +1,9 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Proprietary firmware - from A536BXXUHGYI9, unless pinned
+
+# Modem
+modem.bin
