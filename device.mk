@@ -7,6 +7,7 @@
 $(call inherit-product, device/samsung/s5e8825-common/products/aod/product.mk)
 $(call inherit-product, device/samsung/s5e8825-common/products/phone/product.mk)
 $(call inherit-product, device/samsung/s5e8825-common/products/sec_nfc/product.mk)
+$(call inherit-product, device/samsung/s5e8825-common/products/unify/product.mk)
 
 # Inherit the common tree
 $(call inherit-product, device/samsung/s5e8825-common/common.mk)
