@@ -1,0 +1,75 @@
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.0</value>
+            <nits>2</nits>
+        </point>
+        <point>
+            <value>0.02</value>
+            <nits>10.86</nits>
+        </point>
+        <point>
+            <value>0.15</value>
+            <nits>110</nits>
+        </point>
+        <point>
+            <value>0.20</value>
+            <nits>160</nits>
+        </point>
+        <point>
+            <value>0.25</value>
+            <nits>203</nits>
+        </point>
+        <point>
+            <value>0.50</value>
+            <nits>407</nits>
+        </point>
+        <point>
+            <value>0.96</value>
+            <nits>783.5</nits>
+        </point>
+        <point>
+            <value>0.98</value>
+            <nits>799.5</nits>
+        </point>
+        <point>
+            <value>1.00</value>
+            <nits>800</nits>
+        </point>
+    </screenBrightnessMap>
+
+    <highBrightnessMode enabled="true">
+        <transitionPoint>0.524691</transitionPoint>
+        <minimumLux>3000</minimumLux>
+        <timing>
+            <timeWindowSecs>0</timeWindowSecs> // Window in which we restrict HBM.
+            <timeMaxSecs>0</timeMaxSecs>       // Maximum time of HBM allowed in that window.
+            <timeMinSecs>0</timeMinSecs>       // Minimum time remaining required to switch
+        </timing>                              //   HBM on for.
+    </highBrightnessMode>
+
+    <autoBrightness enabled="true">
+        <brighteningLightDebounceMillis>300</brighteningLightDebounceMillis>
+        <darkeningLightDebounceMillis>400</darkeningLightDebounceMillis>
+        <brighteningLightDebounceIdleMillis>-1</brighteningLightDebounceIdleMillis>
+        <darkeningLightDebounceIdleMillis>-1</darkeningLightDebounceIdleMillis>
+    </autoBrightness>
+
+    <hdrBrightnessConfig>
+        <brightnessMap>
+        </brightnessMap>
+        <brightnessIncreaseDebounceMillis>0</brightnessIncreaseDebounceMillis>
+        <screenBrightnessRampIncrease>-1.0</screenBrightnessRampIncrease>
+        <brightnessDecreaseDebounceMillis>0</brightnessDecreaseDebounceMillis>
+        <screenBrightnessRampDecrease>-1.0</screenBrightnessRampDecrease>
+    </hdrBrightnessConfig>
+
+    <lightSensor>
+        <type>com.samsung.sensor.autobrightness</type>
+        <name>TCS3701 Auto Brightness Sensor</name>
+    </lightSensor>
+</displayConfiguration>
