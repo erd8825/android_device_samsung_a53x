@@ -18,6 +18,9 @@ PRODUCT_PACKAGES += mixer_paths.xml
 # CAS
 TARGET_REQUIRES_HIDL_CAS_HAL := false
 
+# Display - Configuration
+PRODUCT_PACKAGES += displayconfig.xml
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
