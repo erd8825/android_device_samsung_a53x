@@ -35,6 +35,9 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/samsung/fingerprint:
 # Init
 PRODUCT_PACKAGES += init.a53x.rc
 
+# Installer
+TARGET_ANDROID_INFO_EXTRA_FILE := device/samsung/a53x/configs/installer/android-info-extra.txt
+
 # NFC - eSE
 PRODUCT_PACKAGES += android.hardware.secure_element-service.thales-st33
 
