@@ -25,7 +25,22 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
         .add_needed('libshim_camera.so')
         .add_needed('libui_shim.so')
-        .binary_regex_replace(b'_ZN7android5Fence', b'_ZN7exynos55Fence'),
+        .binary_regex_replace(b'_ZN7android5Fence', b'_ZN7exynos55Fence')
+        # Enable RAW support
+        # Before: [
+        #  mov x6,sp
+        #  mov w0,#0x4
+        #  mov w5,w19
+        #  bl 0x0040acc0
+        # ]
+        # After: [
+        #  ldr w0,[x20, #0xa20]
+        #  orr w0,w0,#0x10
+        #  str w0,[x20, #0xa20]
+        #  nop
+        # ]
+        .sig_replace('e6 03 00 91 80 00 80 52 e5 03 13 2a a7 d2 07 94',
+                     '80 22 4a b9 00 00 1c 32 80 22 0a b9 1f 20 03 d5'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
