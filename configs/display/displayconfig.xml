@@ -53,6 +53,88 @@
     </highBrightnessMode>
 
     <autoBrightness enabled="true">
+        <luxToBrightnessMapping>
+            <mode>default</mode>
+            <setting>normal</setting>
+            <map>
+                <point>
+                    <first>0</first>
+                    <second>0.0215</second> <!-- 12 nits -->
+                </point>
+                <point>
+                    <first>1</first>
+                    <second>0.0320</second> <!-- 20 nits -->
+                </point>
+                <point>
+                    <first>2</first>
+                    <second>0.0451</second> <!-- 30 nits -->
+                </point>
+                <point>
+                    <first>5</first>
+                    <second>0.0648</second> <!-- 45 nits -->
+                </point>
+                <point>
+                    <first>10</first>
+                    <second>0.0910</second> <!-- 65 nits -->
+                </point>
+                <point>
+                    <first>20</first>
+                    <second>0.1303</second> <!-- 95 nits -->
+                </point>
+                <point>
+                    <first>50</first>
+                    <second>0.1750</second> <!-- 135 nits -->
+                </point>
+                <point>
+                    <first>100</first>
+                    <second>0.2233</second> <!-- 180 nits -->
+                </point>
+                <point>
+                    <first>200</first>
+                    <second>0.3015</second> <!-- 245 nits -->
+                </point>
+                <point>
+                    <first>400</first>
+                    <second>0.3934</second> <!-- 320 nits -->
+                </point>
+                <point>
+                    <first>800</first>
+                    <second>0.5159</second> <!-- 420 nits -->
+                </point>
+                <point>
+                    <first>1500</first>
+                    <second>0.5220</second> <!-- 425 nits -->
+                </point>
+                <point>
+                    <first>3000</first>
+                    <second>0.7358</second> <!-- 600 nits -->
+                </point>
+                <point>
+                    <first>6000</first>
+                    <second>0.9191</second> <!-- 750 nits -->
+                </point>
+                <point>
+                    <first>12000</first>
+                    <second>1.0000</second> <!-- 800 nits -->
+                </point>
+                <point>
+                    <first>25000</first>
+                    <second>1.0000</second> <!-- 800 nits -->
+                </point>
+                <point>
+                    <first>50000</first>
+                    <second>1.0000</second> <!-- 800 nits -->
+                </point>
+                <point>
+                    <first>100000</first>
+                    <second>1.0000</second> <!-- 800 nits -->
+                </point>
+                <point>
+                    <first>200000</first>
+                    <second>1.0000</second> <!-- 800 nits -->
+                </point>
+            </map>
+        </luxToBrightnessMapping>
         <brighteningLightDebounceMillis>300</brighteningLightDebounceMillis>
         <darkeningLightDebounceMillis>400</darkeningLightDebounceMillis>
         <brighteningLightDebounceIdleMillis>-1</brighteningLightDebounceIdleMillis>
