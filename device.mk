@@ -14,5 +14,8 @@ $(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
 
 DEVICE_PATH := device/samsung/a53x
 
+# Shipping level
+PRODUCT_SHIPPING_API_LEVEL := 31
+
 # Soong - Namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
