@@ -14,6 +14,9 @@ $(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
 
 DEVICE_PATH := device/samsung/a53x
 
+# CAS
+TARGET_REQUIRES_HIDL_CAS_HAL := false
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
