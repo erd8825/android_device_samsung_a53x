@@ -14,6 +14,8 @@ module = ExtractUtilsModule(
     'samsung',
 )
 
+module.add_proprietary_file('../s5e8825-common/proprietary-files.device.txt')
+
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
         module, 's5e8825-common', module.vendor
