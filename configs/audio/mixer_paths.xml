@@ -4836,7 +4836,7 @@
         <ctl name="ABOX SIFS0 Channel" value="2" />
         <path name="route-sifs0-to-uaif1" />
         <path name="route-rdmas-to-sifs0" />
-        <ctl name="ABOX VDSP0" value="bdmixer-apcall-rxse-callrec" />
+        <ctl name="ABOX VDSP0" value="bdmixer-normal" />
     </path>
 
     <path name="route-apcall-spkrcv-playback">
@@ -4852,7 +4852,7 @@
         <path name="route-nsrc4-to-wdma4" />
         <path name="route-rdmas-to-sifs0" />
         <ctl name="ABOX VDSP1" value="speaker-ampprotection-playback" />
-        <ctl name="ABOX VDSP0" value="bdmixer-apcall-rxse-callrec" />
+        <ctl name="ABOX VDSP0" value="bdmixer-normal" />
     </path>
 
     <path name="route-apcall-headset-playback">
@@ -4860,7 +4860,7 @@
         <ctl name="ABOX SIFS0 Channel" value="2" />
         <path name="route-sifs0-to-uaif0" />
         <path name="route-rdmas-to-sifs0" />
-        <ctl name="ABOX VDSP0" value="bdmixer-apcall-rxse-callrec" />
+        <ctl name="ABOX VDSP0" value="bdmixer-normal" />
     </path>
 
     <path name="communication-handset">
@@ -4924,13 +4924,13 @@
     <path name="communication-usb-headset">
         <path name="route-usb-playback" />
         <path name="route-rdmas-to-sifs0" />
-        <ctl name="ABOX VDSP0" value="bdmixer-apcall-rxse-callrec" />
+        <ctl name="ABOX VDSP0" value="bdmixer-normal" />
     </path>
 
     <path name="communication-async-usb-headset">
         <path name="route-asyncusb-playback" />
         <path name="route-rdmas-to-sifs0" />
-        <ctl name="ABOX VDSP0" value="bdmixer-apcall-rxse-callrec" />
+        <ctl name="ABOX VDSP0" value="bdmixer-normal" />
         <ctl name="ABOX VDSP1" value="asyncusb-playback" />
     </path>
 
