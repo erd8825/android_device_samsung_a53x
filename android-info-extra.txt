@@ -7,4 +7,5 @@ require firmware.SM-A5360=A5360ZHSHFYI1
 require firmware.SM-A536B=A536BXXU1AVBB|A536BXXSHFYI1
 require firmware.SM-A536E=A536EXXSHFYI4
 require firmware.SM-A536N=A536NKSSCFYH1
+require model=SM-A5360|SM-A536B|SM-A536E|SM-A536N
 skip modem-flash-on-firmware=A536BXXU1AVBB
