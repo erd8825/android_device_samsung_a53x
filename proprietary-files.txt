@@ -5,6 +5,9 @@
 
 # Proprietary files - from A536BXXSOGZH2, unless pinned
 
+# Audio - Effects - SoundBooster
+vendor/lib64/lib_SoundBooster_ver1100.so
+
 # Audio - Firmware
 vendor/firmware/APDV_AUDIO_SLSI.bin
 vendor/firmware/AP_AUDIO_SLSI.bin
