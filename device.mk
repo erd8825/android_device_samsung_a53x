@@ -26,6 +26,9 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayDevice \
     WiFiOverlayDevice
 
+# RIL
+TARGET_HAS_RIL := true
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
