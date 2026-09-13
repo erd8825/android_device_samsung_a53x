@@ -27,6 +27,9 @@ PRODUCT_PACKAGES += \
 # Properties
 TARGET_VENDOR_PROP += device/samsung/a53x/configs/props/vendor.prop
 
+# RIL
+TARGET_HAS_RIL := true
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
