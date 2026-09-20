@@ -3,4 +3,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-skip modem-flash-on-firmware=A536BXXU1AVBB
+skip modem-flash-on-firmware=A536BXXU1AVBB|A536BXXSDEYB1
