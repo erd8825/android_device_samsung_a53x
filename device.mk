@@ -21,6 +21,9 @@ $(call inherit-product, device/samsung/s5e8825-common/products/aod/product.mk)
 # Display - Configuration
 PRODUCT_PACKAGES += displayconfig.xml
 
+# Fingerprint
+$(call inherit-product, device/samsung/s5e8825-common/products/udfps/product.mk)
+
 # Init
 PRODUCT_PACKAGES += init.a53x.rc
 
