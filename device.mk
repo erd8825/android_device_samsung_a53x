@@ -15,6 +15,9 @@ $(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
 # Audio - Configuration
 PRODUCT_PACKAGES += mixer_paths.xml
 
+# Display - AOD
+$(call inherit-product, device/samsung/s5e8825-common/products/aod/product.mk)
+
 # Display - Configuration
 PRODUCT_PACKAGES += displayconfig.xml
 
