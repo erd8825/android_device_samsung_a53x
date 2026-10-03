@@ -15,10 +15,14 @@ $(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
 # Audio - Configuration
 PRODUCT_PACKAGES += mixer_paths.xml
 
+# Display - Configuration
+PRODUCT_PACKAGES += displayconfig.xml
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     SettingsProviderOverlayDevice \
+    SystemUIOverlayDevice \
     WiFiOverlayDevice
 
 # Properties
