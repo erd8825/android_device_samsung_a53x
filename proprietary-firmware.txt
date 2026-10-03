@@ -6,4 +6,13 @@
 # Proprietary firmware - from A536BXXUHGYI9, unless pinned
 
 # Modem
-modem.bin
+modem.bin:modem.bin_SM-A536B
+
+# Modem - from SM-A5360 - A5360ZHUHGYI9
+modem.bin_SM-A5360|0c1a3ea5ac9358ec4a981af8ffdf42784de6bd26
+
+# Modem - from SM-A536E - A536EXXUHGYI9
+modem.bin_SM-A536E|f65fe2517f7ab8c074cd28ae40aa241df8745a00
+
+# Modem - from SM-A536N - A536NKOUCGYI2
+modem.bin_SM-A536N|1421fc054c4672b06a6f7ed621cf8e9aa3303a25
