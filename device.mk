@@ -30,6 +30,9 @@ $(call inherit-product, device/samsung/s5e8825-common/products/udfps/product.mk)
 # Init
 PRODUCT_PACKAGES += init.a53x.rc
 
+# Installer
+TARGET_ANDROID_INFO_EXTRA_FILE := device/samsung/a53x/configs/installer/android-info-extra.txt
+
 # NFC
 $(call inherit-product, device/samsung/s5e8825-common/products/sec_nfc/product.mk)
 
