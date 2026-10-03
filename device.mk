@@ -12,6 +12,9 @@ $(call inherit-product, device/samsung/s5e8825-common/products/phone/product.mk)
 # Inherit the device-specific vendor configuration
 $(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
 
+# Overlays
+PRODUCT_PACKAGES += SettingsProviderOverlayDevice
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
