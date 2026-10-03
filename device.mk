@@ -21,6 +21,9 @@ $(call inherit-product, device/samsung/s5e8825-common/products/aod/product.mk)
 # Display - Configuration
 PRODUCT_PACKAGES += displayconfig.xml
 
+# NFC
+$(call inherit-product, device/samsung/s5e8825-common/products/sec_nfc/product.mk)
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
