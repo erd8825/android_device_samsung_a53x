@@ -15,6 +15,9 @@ $(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
 # Audio - Configuration
 PRODUCT_PACKAGES += mixer_paths.xml
 
+# Audio - Effects - SoundBooster
+$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/a53x:lib_SoundBooster_ver1100)
+
 # Display - AOD
 $(call inherit-product, device/samsung/s5e8825-common/products/aod/product.mk)
 
