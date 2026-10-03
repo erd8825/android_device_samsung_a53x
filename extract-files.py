@@ -12,6 +12,7 @@ from extract_utils.main import (
 module = ExtractUtilsModule(
     'a53x',
     'samsung',
+    add_firmware_proprietary_file=True,
 )
 
 module.add_proprietary_file('../s5e8825-common/proprietary-files.device.txt')
