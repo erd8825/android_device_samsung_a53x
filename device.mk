@@ -42,6 +42,7 @@ PRODUCT_PACKAGES += android.hardware.secure_element-service.thales-st33
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
+    SettingsOverlayDevice \
     SettingsProviderOverlayDevice \
     SystemUIOverlayDevice \
     WiFiOverlayDevice
